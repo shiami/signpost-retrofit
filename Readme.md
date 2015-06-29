@@ -24,6 +24,22 @@ RestAdapter adapter = new RestAdapter.Builder()
 
 Note that this extension does not (currently) include `HttpOAuthProvider` and `HttpResponseAdapter` implementations.
 
+Download
+=======
+
+Gradle:
+```groovy
+	repositories {
+	    maven {
+	        url "https://jitpack.io"
+	    }
+	}
+
+dependencies {
+	    compile 'com.github.User:Repo:Tag'
+	}
+```
+
 License
 =======
 
