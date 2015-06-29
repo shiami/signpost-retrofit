@@ -29,15 +29,15 @@ Download
 
 Gradle:
 ```groovy
-	repositories {
-	    maven {
-	        url "https://jitpack.io"
-	    }
-	}
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
 
 dependencies {
-	    compile 'com.github.User:Repo:Tag'
-	}
+    compile 'com.github.shiami:signpost-retrofit:e2bdd9f116'
+}
 ```
 
 License
